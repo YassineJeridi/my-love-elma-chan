@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine? 💕</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Hearts Background -->
+    <div class="hearts-container" id="heartsContainer"></div>
+
+    <!-- Initial Question Screen -->
+    <div class="screen" id="questionScreen">
+        <div class="question-container">
+            <h1 class="question-title">Would you be my valentine?</h1>
+            <div class="emoji-decoration">💕</div>
+            <div class="buttons-container">
+                <button class="btn btn-yes" id="yesBtn">Yes! 💖</button>
+                <button class="btn btn-no" id="noBtn">No</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mode Selection Menu -->
+    <div class="screen hidden" id="menuScreen">
+        <div class="menu-container">
+            <h2 class="menu-title">Choose How to View Our Memories 💝</h2>
+            <div class="menu-buttons">
+                <button class="menu-btn" id="cardsBtn">
+                    <span class="menu-icon">🎴</span>
+                    <span class="menu-label">Card Gallery</span>
+                    <span class="menu-desc">Swipe through memories</span>
+                </button>
+                <button class="menu-btn" id="slideshowBtn">
+                    <span class="menu-icon">🎬</span>
+                    <span class="menu-label">Slideshow</span>
+                    <span class="menu-desc">Auto-playing gallery</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3D Card Gallery Screen -->
+    <div class="screen hidden" id="galleryScreen">
+        <button class="back-btn" id="backFromGallery">← Back to Menu</button>
+        <div class="gallery-container">
+            <div class="gallery-header">
+                <h2 class="gallery-title">Our Beautiful Moments 💝</h2>
+                <p class="gallery-subtitle" id="currentDate"></p>
+            </div>
+            
+            <div class="card-wrapper">
+                <button class="nav-btn nav-prev" id="prevBtn" aria-label="Previous">
+                    <span>❮</span>
+                </button>
+                
+                <div class="card-container" id="cardContainer">
+                    <div class="card" id="mainCard">
+                        <div class="card-inner">
+                            <img src="" alt="Memory" id="cardImage">
+                            <div class="card-glow"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="nav-btn nav-next" id="nextBtn" aria-label="Next">
+                    <span>❯</span>
+                </button>
+            </div>
+
+            <div class="progress-dots" id="progressDots"></div>
+
+            <!-- Video Section -->
+            <div class="video-section hidden" id="videoSection">
+                <video controls id="memoryVideo" class="memory-video">
+                    <source src="" type="video/mp4">
+                    Your browser doesn't support video playback.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slideshow Screen -->
+    <div class="screen hidden" id="slideshowScreen">
+        <button class="back-btn" id="backFromSlideshow">← Back to Menu</button>
+        <div class="slideshow-container">
+            <div class="slideshow-image-wrapper">
+                <img src="" alt="Memory" id="slideshowImage" class="slideshow-image">
+                <div class="slideshow-overlay">
+                    <p class="slideshow-date" id="slideshowDate"></p>
+                    <p class="slideshow-counter" id="slideshowCounter"></p>
+                </div>
+            </div>
+            <div class="slideshow-controls">
+                <button class="control-btn" id="slideshowPrev">❮</button>
+                <button class="control-btn" id="slideshowPlayPause">⏸</button>
+                <button class="control-btn" id="slideshowNext">❯</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Final Message -->
+    <div class="final-message hidden" id="finalMessage">
+        <p class="apology-text">Sorry if I did something that hurts you...</p>
+    </div>
+
+    <!-- Particle Effects -->
+    <canvas id="particleCanvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
