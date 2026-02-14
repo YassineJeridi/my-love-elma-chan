@@ -94,7 +94,7 @@ async function loadImageData() {
         data.imageGroups.forEach(group => {
             group.images.forEach(image => {
                 state.allImages.push({
-                    path: `assets/images/${image}`,
+                    path: `images/${image}`,
                     date: group.displayDate
                 });
             });
@@ -104,7 +104,7 @@ async function loadImageData() {
         if (data.videos && data.videos.length > 0) {
             data.videos.forEach(video => {
                 state.allImages.push({
-                    path: `assets/videos/${video}`,
+                    path: `videos/${video}`,
                     date: 'Special Video',
                     isVideo: true
                 });
