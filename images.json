@@ -42,7 +42,7 @@
     },
     {
       "date": "2025-02-14",
-      "displayDate": "February 14, 2025 - Valentine's Day 💕",
+      "displayDate": "Valentine's Day 2025 💕",
       "images": [
         "IMG_8326.jpg",
         "IMG_8327.jpg",
@@ -57,48 +57,12 @@
     },
     {
       "date": "2024-12-15",
-      "displayDate": "December 15, 2024 - Ela Memories",
+      "displayDate": "Special Moments",
       "images": [
-        "ela/5769297142450162755_121.jpg",
-        "ela/5775896677528046672_121.jpg",
-        "ela/5850733287205178293_121.jpg"
-      ]
-    },
-    {
-      "date": "2025-01-10",
-      "displayDate": "January 10, 2025 - Ela Memories",
-      "images": [
-        "ela/5960535199865490881_121.jpg",
-        "ela/5976497656274472239_121.jpg",
-        "ela/5976497656274472240_121.jpg",
-        "ela/6003747600269953189_121.jpg",
-        "ela/6003747600269953192_121.jpg"
-      ]
-    },
-    {
-      "date": "2025-01-22",
-      "displayDate": "January 22, 2025 - More Ela Memories",
-      "images": [
-        "ela/6032844096738626605_121.jpg",
-        "ela/6043963144297712675_121.jpg"
-      ]
-    },
-    {
-      "date": "2025-02-14",
-      "displayDate": "February 14, 2025 - Special Ela Moments 💕",
-      "images": [
-        "ela/IMG_8321.jpg",
-        "ela/IMG_8323.jpg",
-        "ela/IMG_8324.jpg",
-        "ela/IMG_8329.jpg",
-        "ela/IMG_8330.jpg",
-        "ela/IMG_8332.jpg",
-        "ela/IMG_8333.jpg"
+        "5850733287205178293_121.jpg",
+        "5976497656274472239_121.jpg",
+        "6003747600269953192_121.jpg"
       ]
     }
-  ],
-  "videos": [
-    "IMG_8250.MOV",
-    "IMG_8320.MOV"
   ]
 }
