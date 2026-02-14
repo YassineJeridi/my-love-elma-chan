@@ -1,6 +1,8 @@
 async function loadImageData() {
     try {
-        const response = await fetch('images.json');
+        const response = await fetch('images.json', {
+            cache: 'no-store'
+        });
         const data = await response.json();
         state.imageGroups = data.imageGroups;
         
