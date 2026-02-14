@@ -1,0 +1,123 @@
+@media (max-width: 768px) {
+    .question-title {
+        font-size: 1.8rem;
+    }
+
+    .emoji-decoration {
+        font-size: 3rem;
+    }
+
+    .btn {
+        padding: 15px 35px;
+        font-size: 1.1rem;
+    }
+
+    .question-container {
+        padding: 40px 25px;
+    }
+
+    .menu-title {
+        font-size: 1.8rem;
+    }
+
+    .menu-buttons {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-title {
+        font-size: 1.8rem;
+    }
+
+    .card-container {
+        height: 400px;
+    }
+
+    .nav-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+
+    .card-wrapper {
+        gap: 10px;
+    }
+
+    .slideshow-overlay {
+        bottom: 120px;
+        padding: 15px 25px;
+    }
+
+    .slideshow-date {
+        font-size: 1.2rem;
+    }
+
+    .final-message {
+        padding: 40px 30px;
+        width: 90%;
+    }
+
+    .apology-text {
+        font-size: 1.5rem;
+    }
+
+    .back-btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .question-title {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
+
+    .buttons-container {
+        gap: 15px;
+    }
+
+    .menu-title {
+        font-size: 1.5rem;
+        margin-bottom: 40px;
+    }
+
+    .menu-icon {
+        font-size: 3rem;
+    }
+
+    .menu-label {
+        font-size: 1.5rem;
+    }
+
+    .gallery-title {
+        font-size: 1.5rem;
+    }
+
+    .gallery-subtitle {
+        font-size: 1rem;
+    }
+
+    .card-container {
+        height: 350px;
+    }
+
+    .nav-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 1.3rem;
+    }
+
+    .control-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 1.3rem;
+    }
+
+    .apology-text {
+        font-size: 1.2rem;
+    }
+}
